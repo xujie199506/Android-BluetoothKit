@@ -20,15 +20,14 @@ BluetoothKit---Android Bluetooth Framework
 
 七、支持拦截所有对蓝牙原生接口的调用
 
-
-## 本框架源码讲解，可参考 **[Android BLE蓝牙通信教程](https://study.163.com/course/introduction/1006381079.htm)**
+ 
 
 # **用法**
 
 1、在Android Studio的build.gradle中，在dependencies里添加一行:
 
 ```groovy
-compile 'com.inuker.bluetooth:library:1.4.0'
+ implementation 'com.github.xujie199506:BluetoothKit:1.0.1'
 ```
 
 如果是Eclipse，可以导入bluetoothkit.jar，在AndroidManifest.xml中添加如下：
@@ -435,12 +434,4 @@ clearType表示要清除的请求类型，如果要清除多种请求，可以�
 ```
 mClient.refreshCache(MAC);
 ```
-
----
-有问题或建议可以给我邮件，到我的博客留言，或者加QQ群
-
- - Email: dingjikerbo@gmail.com
-
- - Blog: http://blog.csdn.net/dingjikerbo
-
- - QQ群: 112408886
+ 
